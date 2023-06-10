@@ -1,0 +1,221 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: white;
+    background-image: url('asset/background.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+  } 
+
+  #image-input {
+    background-color: #1e2833; /* Warna latar belakang */
+    color: #ffffff; /* Warna teks */
+    padding: 10px; /* Spasi internal */
+    border: none; /* Hilangkan border */
+    border-radius: 4px; /* Gaya sudut border */
+    width: 35%;
+  }
+  
+  #image-input::file-selector-button {
+    background-color: #2196f3; /* Warna tombol pilih file */
+    color: #ffffff; /* Warna teks tombol pilih file */
+    padding: 8px 16px; /* Spasi internal tombol pilih file */
+    border: none; /* Hilangkan border tombol pilih file */
+    border-radius: 4px; /* Gaya sudut border tombol pilih file */
+  }
+  
+  #image-input::file-selector-button:hover {
+    background-color: #0d8bf2; /* Warna tombol pilih file saat dihover */
+  }
+
+  #image-result,
+  #audio-result {
+  }
+  
+  #image-result img {
+    width: auto;
+    max-height: 400px;
+  }
+  
+  #audio-result audio {
+    width: 100%;
+  }
+
+  .header{
+    border-bottom: 1px solid rgb(110, 110, 110);
+    text-align: center;
+  }
+  .header ul li{
+    margin-inline: 6%;
+    list-style-type: none;
+    display: inline-block;
+  }
+  .side_menu_icon{
+    font-size: 30px;
+  }
+
+
+  .intro-cont{
+    
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 50%;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  .intro h1{
+    font-size: 80px;
+    margin-bottom: 0px;
+  }
+
+  .image-comp{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  .image-comp h2{
+    font-size: 30px;
+  }
+  .image-side{
+    width: 40%;
+    max-height: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-side2{
+    width: 40%;
+    height: 500px;
+    max-height: 500px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  input[type="number"] {
+    background-color: #1e2833; /* Warna latar belakang input */
+    color: #ffffff; /* Warna teks input */
+    padding: 8px; /* Spasi internal input */
+    border: none; /* Hilangkan border input */
+    border-radius: 4px; /* Gaya sudut border input */
+  }
+  #file-size{
+    margin-top: 20px;
+  }
+
+  #download-link{
+    margin-top: 20px;
+    background-color: #2196f3; /* Warna tombol pilih file */
+    color: #ffffff; /* Warna teks tombol pilih file */
+    padding: 8px 16px; /* Spasi internal tombol pilih file */
+    border: none; /* Hilangkan border tombol pilih file */
+    border-radius: 4px; /* Gaya sudut border tombol pilih file */
+  }
+  #download-link:hover{
+    margin-top: 20px;
+    background-color: #3483c4; /* Warna tombol pilih file */
+  }
+  
+  button {
+    background-color: #2196f3; /* Warna tombol Resize Image */
+    color: #ffffff; /* Warna teks tombol Resize Image */
+    padding: 10px 16px; /* Spasi internal tombol Resize Image */
+    border: none; /* Hilangkan border tombol Resize Image */
+    border-radius: 4px; /* Gaya sudut border tombol Resize Image */
+  }
+  
+  button:hover {
+    background-color: #0d8bf2; /* Warna tombol Resize Image saat dihover */
+  }
+
+  .audio-comp{
+    /* border: 1px solid red; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .audio-side{
+    border-top: 1px solid grey;
+    width: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .audio-side2{
+    /* border: 1px solid red; */
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .audio-comp h2{
+    font-size: 30px;
+  }
+  #audio-input {
+    background-color: #1e2833; /* Warna latar belakang */
+    color: #ffffff; /* Warna teks */
+    padding: 10px; /* Spasi internal */
+    border: none; /* Hilangkan border */
+    border-radius: 4px; /* Gaya sudut border */
+    width: 30%;
+  }
+  
+  #audio-input::file-selector-button {
+    background-color: #2196f3; /* Warna tombol pilih file */
+    color: #ffffff; /* Warna teks tombol pilih file */
+    padding: 8px 16px; /* Spasi internal tombol pilih file */
+    border: none; /* Hilangkan border tombol pilih file */
+    border-radius: 4px; /* Gaya sudut border tombol pilih file */
+  }
+  
+  #audio-input::file-selector-button:hover {
+    background-color: #0d8bf2; /* Warna tombol pilih file saat dihover */
+  }
+
+  footer {
+    background-color: #1e2833; /* Warna latar belakang footer */
+    color: #ffffff; /* Warna teks footer */
+    text-align: center; /* Posisi teks di tengah */
+    padding: 10px; /* Spasi internal footer */
+  }
